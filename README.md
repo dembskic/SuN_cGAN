@@ -58,7 +58,7 @@ import seaborn
 seaborn.set_style("whitegrid")
 
 
-sys.path.insert(0,'SourceCode')
+sys.path.insert(0,'src')
 
 from cGAN import Generator, Discriminator, generator_loss, discriminator_loss, train_step, fit
 from Analysis import max_points, single_centroid_calc, peak_errors, double_centroid_calc

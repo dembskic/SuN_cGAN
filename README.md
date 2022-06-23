@@ -3,8 +3,8 @@ This repository contains a Pix2Pix cGAN trained to unfold (Ex,Eg) matrices produ
 
 Our cGAN implementation is constructed with Tensorflow and based on the work of Isola, Zhu, Zhou, and Efros (https://arxiv.org/abs/1611.07004), as well as Tensorflow's "pix2pix: Image Translation with a Conditional GAN" tutorial (https://www.tensorflow.org/tutorials/generative/pix2pix).
 
-Further information can be found in Dembski, Kuchera, Liddck, Spyrou, and Ramanujan, Two-Dimensional Total Absorption Spectroscopy with Conditional Generative Adversarial Analysis. 
-Arxiv: (arxiv link here)
+Further information can be found in Dembski, Kuchera, Liddck, Spyrou, and Ramanujan, Two-Dimensional Total Absorption Spectroscopy with Conditional Generative Adversarial Networks. 
+
 
 
 # Version Dependencies 
@@ -166,4 +166,4 @@ train_example.py will train a Pix2Pix model on a small subset of our training da
 -singles_analysis.png, a 2D histogram showing percent error results for the provided single gamma-ray testing spectra
 -doubles_analysis.png, a 2D histogram showing percent error results for the provided double gamma-ray testing spectra
 
-The weights presented in (arxiv link here) can also be loaded into the model to view results from a training with a larger training dataset.
+Our best weights can also be loaded into the model to view results from a training with a larger training dataset.

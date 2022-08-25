@@ -23,7 +23,7 @@ These modules can be installed via pip:
 
 ```
 
-pip install numpy matplotlib skit-learn seaborn
+pip install numpy matplotlib scikit-learn seaborn
 
 ```
 
